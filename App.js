@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
-import Callback from './hooks/callback'
+import Callback from './hooks/callback';
+import Memo from './hooks/memo';
 
 const App = ()=>(<div id='container'>
-<Callback/>
+<Memo/>
 </div>);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
