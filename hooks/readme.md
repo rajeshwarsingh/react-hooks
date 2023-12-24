@@ -1,0 +1,1 @@
+ # useMemo is used to memoize values or computations, helping to optimize expensive calculations or data transformations. useCallback is used to memoize callback functions, reducing unnecessary re-creation of functions and optimizing component re-renders.
